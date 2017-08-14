@@ -26,3 +26,13 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# pulzoTest
+
+--------------------------------------- Recomendaciones --------------------------------------------------
+1. Para correr el proyecto en local, Seguir las instrucciones citadas arriba.
+2. En la raíz del proyecto hay una carpeta dist la cual es el compilado de la prueba, 
+   poner esta carpeta  en un servidor mamp, o lamp, y direccionar  a index.html  
+3. Para revisar el código de la prueba se debe dirigir a :
+   - pulzoTes/serc/app/movies/movies
+   - pulzoTes/serc/app/movies/movies-filter
+   - pulzoTes/serc/app/movies/services

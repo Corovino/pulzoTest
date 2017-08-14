@@ -1,0 +1,107 @@
+$break-small: 320px;
+
+.header-movies
+{
+
+   margin-bottom: 5px;
+  .content-select {
+    position: relative;
+    background: #fff;
+    border-left: 3px solid #00C174;
+    padding: 3px;
+    box-shadow: 0 0 31px 2px rgba(0, 0, 0, .2);
+
+    select {
+      color: #a7a7a7;
+      font-weight: 16px;
+      border: none;
+      padding: 2px 8px;
+      background: transparent;
+      z-index: 2;
+      width: 100%;
+      position: relative;
+      text-transform: uppercase;
+      font-size: 1.4em;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+  }
+  .menu-cine
+  {
+      padding: 0;
+      position: relative;
+      ul
+      {
+
+        li
+        {
+            display: inline-block;
+            margin: 0 10px;
+            position: relative;
+            cursor: pointer;
+            top :70px;
+            right: -200px;
+            &:after{
+              content: "";
+              position: absolute;
+              top: 4px;
+              right: -13px;
+              width: 1px;
+              height: 15px;
+              background: #b7b7b7;
+            }
+            a
+            {
+              color:#737373;
+              text-decoration: none;
+              cursor: pointer;
+              margin-left: 5px;
+            }
+            &.active{font-weight: lighter; border-bottom: 3px solid #00C174;
+
+              a{ color:#565656;}
+            }
+        }
+        a{
+           img{
+             position: absolute;
+             top: 30px;
+             right: 170px;
+           }
+        }
+      }
+      @media screen and (max-width: $break-small) {
+          h1{
+            font-size: 36px;
+            text-align: center;
+          }
+          ul{
+            li {
+               display : inline-block;
+               top:10px;
+               right: 10px;
+               margin: 5px;
+            }
+          }
+          a{
+            img{
+
+              display: block;
+              margin-right: -130px;
+              margin-top: 13px;
+            }
+          }
+      }
+  }
+
+  .grid-cine{
+    margin: 0 3px 30px;
+  }
+}
+
+
+
+
+
+

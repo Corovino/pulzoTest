@@ -1,0 +1,17 @@
+
+<div class="col-md-4"    *ngFor="let bilboard of bilboards">
+  <article class="article-cine">
+    <a href="/cine/atomica/{{bilboard.id}}">
+      <figure>
+        <img src="{{bilboard.image}}">
+      </figure>
+    </a>
+
+    <div class="info-movie">
+      <header ng-class="{'full-title':type==1}" class="full-title">
+        <h1 class="movie-title ng-binding">{{bilboard.name}}</h1>
+      </header>
+      <a href="/cine/atomica/{{bilboard.id}}" class="show-more-btn iron-green">Conoce más</a>
+    </div>
+  </article>
+</div>
